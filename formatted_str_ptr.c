@@ -20,7 +20,7 @@ int print_str(va_list args)
                 str = "(null)";
         while (*str)
         {
-                printed_chars += print_char(*str);
+                printed_chars += print_char(char);
                 str++;
         }
         return (printed_chars);
