@@ -122,7 +122,7 @@ int print_octal(va_list args)
 int print_binary(va_list args)
 {
         unsigned int num = va_arg(args, unsigned int);
-        return (print_num(num));
+        return (print_qm(num));
 }
 
 /**
